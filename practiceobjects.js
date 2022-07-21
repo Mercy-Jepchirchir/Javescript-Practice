@@ -41,7 +41,7 @@ console.log(person);
 var student = {
     name : "Student",
     country: "Kenya",
-    hobby:function(){
+    hobby:function(){// we use this to refence the 
         console.log(`my name is ${this.name} and my country is ${this.country}`);
 
         return "my favourite game";
